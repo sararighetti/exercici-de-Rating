@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Star ratings</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body> 
+    <div class="titulo">
+    <h1 >Skull Rating</h1> 
+    <p>How good is this rating system?</p>
+    </div>
+    <div id="rate1">   
+        <input type="radio" name="rate" id="5" onclick="reply_click(this.id)" > 
+        <label for="5" name ="label" >&#9760;</label>
+        <input type="radio" name="rate" id="4" onclick="reply_click(this.id)">
+        <label for="4" name ="label">&#9760;</label>
+        <input type="radio" name="rate" id="3" onclick="reply_click(this.id)"> 
+        <label for="3" name ="label">&#9760;</label>
+        <input type="radio" name="rate" id="2" onclick="reply_click(this.id)">
+        <label for="2" name ="label">&#9760;</label>
+        <input type="radio" name="rate" id="1" onclick="reply_click(this.id)">
+        <label for="1" name ="label">&#9760;</label>
+</div>
+<p class="rated text-center"></p>
+   
+</body>
+<script src="stars.js"></script>
+<script src="https://kit.fontawesome.com/5d2169d7fd.js" crossorigin="anonymous"></script>
+</html>
