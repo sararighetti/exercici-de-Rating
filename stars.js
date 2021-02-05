@@ -17,7 +17,7 @@ function reply_click(clicked_id){
               rating.innerHTML = "You have rated " + clicked_id + " skulls: It's bad";
               break;
               case "1":
-                rating.innerHTML = "You have rated " + clicked_id + " skulls: It's very bad";
+                rating.innerHTML = "You have rated " + clicked_id + " skull: It's very bad";
                 break;
     }
     
